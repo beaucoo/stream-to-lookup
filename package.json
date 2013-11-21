@@ -1,0 +1,53 @@
+{
+  "name": "stream-to-lookup",
+  "version": "1.0.0",
+  "description": "Stream JSON data and pivot it into a lookup format i.e. associative array",
+  "main": "index.js",
+  "keywords": [
+    "stream",
+    "lookup",
+    "associative",
+    "array",
+    "pivot"
+  ],
+  "engines": [
+    "node"
+  ],
+  "directories": {
+    "test": "./test"
+  },
+  "scripts": {
+    "test": "mocha test --require must --reporter spec --recursive"
+  },
+  "contributors": [
+    {
+      "name": "BeauCoo",
+      "email": "info@beaucoo.com",
+      "url": "http://beaucoo.com/"
+    },
+    {
+      "name": "Rick Cotter",
+      "email": "rcotter@gmail.com"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/beaucoo/stream-to-lookup/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/beaucoo/stream-to-lookup.git"
+  },
+  "author": "Rick Cotter",
+  "license": "Copyright BeauCoo Technologies Inc. 2013",
+  "readmeFilename": "README.md",
+  "private": true,
+  "devDependencies": {
+    "must": "~0.9.0",
+    "mocha": "~1.x.x",
+    "event-stream": "~3.0.16"
+  },
+  "dependencies": {
+    "lodash": "~2.3.0",
+    "through": "~2.3.4"
+  }
+}
