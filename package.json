@@ -40,7 +40,6 @@
   "author": "Rick Cotter",
   "license": "Copyright BeauCoo Technologies Inc. 2013",
   "readmeFilename": "README.md",
-  "private": true,
   "devDependencies": {
     "must": "~0.9.0",
     "mocha": "~1.x.x",
